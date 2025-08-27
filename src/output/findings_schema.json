@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kaggle Red Team Findings Schema",
+  "description": "Schema for Kaggle GPT-OSS-20B Red Team Competition findings submission",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "Version of the schema being used",
+      "default": "1.0.0"
+    },
+    "issue_title": {
+      "type": "string",
+      "description": "Brief title describing the vulnerability or issue found",
+      "maxLength": 200
+    },
+    "model": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "Model name",
+          "default": "gpt-oss-20b"
+        },
+        "version": {
+          "type": "string",
+          "description": "Model version or date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "vendor": {
+          "type": "string",
+          "description": "Model vendor or provider"
+        },
+        "parameters": {
+          "type": "object",
+          "description": "Model parameters used during testing",
+          "properties": {
+            "temperature": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "max_tokens": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "top_p": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        }
+      },
+      "required": ["name", "version", "vendor"]
+    },
+    "environment": {
+      "type": "object",
+      "properties": {
+        "endpoint": {
+          "type": "string",
+          "description": "Testing environment or endpoint used"
+        }
+      },
+      "required": ["endpoint"]
+    },
+    "issue_summary": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Detailed title of the issue"
+        },
+        "topic_area": {
+          "type": "string",
+          "description": "Category or domain of the vulnerability"
+        },
+        "overview": {
+          "type": "string",
+          "description": "Brief overview of the vulnerability"
+        },
+        "desired_behavior": {
+          "type": "string",
+          "description": "What the model should do instead"
+        },
+        "observed_behavior": {
+          "type": "string",
+          "description": "What the model actually did"
+        },
+        "self_assessed_severity": {
+          "type": "string",
+          "enum": ["0", "1", "2", "3", "4", "5"],
+          "description": "Self-assessed severity level (0-5)"
+        },
+        "self_assessed_severity_justification": {
+          "type": "string",
+          "description": "Justification for the severity assessment"
+        },
+        "self_assessed_breadth": {
+          "type": "string",
+          "enum": ["0", "1", "2", "3", "4", "5"],
+          "description": "Self-assessed breadth of impact (0-5)"
+        },
+        "self_assessed_breadth_justification": {
+          "type": "string",
+          "description": "Justification for the breadth assessment"
+        }
+      },
+      "required": [
+        "title", "topic_area", "overview", "desired_behavior", 
+        "observed_behavior", "self_assessed_severity", 
+        "self_assessed_severity_justification", "self_assessed_breadth", 
+        "self_assessed_breadth_justification"
+      ]
+    },
+    "harmony_response_walkthroughs": {
+      "type": "array",
+      "description": "Array of conversation walkthroughs in Harmony format",
+      "items": {
+        "type": "string",
+        "description": "Harmony-formatted conversation string with proper JSON escaping"
+      },
+      "minItems": 1
+    },
+    "steps_to_reproduce": {
+      "type": "array",
+      "description": "Step-by-step instructions to reproduce the finding",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes or comments about the finding"
+    }
+  },
+  "required": [
+    "schema_version", "issue_title", "model", "environment", 
+    "issue_summary", "harmony_response_walkthroughs", "steps_to_reproduce"
+  ]
+}

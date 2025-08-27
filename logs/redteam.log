@@ -1,0 +1,332 @@
+2025-08-18 10:37:26 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:37:26 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:37:26 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:37:55 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:37:55 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:37:55 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:38:20 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:38:20 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:38:20 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:38:20 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 10:38:20 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 10:38:20 - redteam_framework - INFO - Loading model: gpt-oss-20b
+2025-08-18 10:38:20 - redteam_framework - ERROR - Model loading error: ModelManager.load_model() got an unexpected keyword argument 'model_name'
+2025-08-18 10:38:20 - redteam_framework - ERROR - Failed to load model
+2025-08-18 10:38:20 - __main__ - ERROR - Framework initialization failed
+2025-08-18 10:38:20 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 10:39:39 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:39:39 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:39:39 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:39:39 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 10:39:39 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 10:39:39 - redteam_framework - INFO - Loading model: gpt-oss-20b
+2025-08-18 10:39:39 - redteam - INFO - 使用设备: auto
+2025-08-18 10:39:39 - redteam - ERROR - 模型加载失败: No package metadata was found for bitsandbytes
+2025-08-18 10:39:39 - redteam_framework - ERROR - Model loading failed
+2025-08-18 10:39:39 - redteam_framework - ERROR - Failed to load model
+2025-08-18 10:39:39 - __main__ - ERROR - Framework initialization failed
+2025-08-18 10:39:39 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 10:39:39 - redteam - INFO - 模型已卸载
+2025-08-18 10:39:39 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 10:41:49 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:41:49 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:41:49 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:41:49 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 10:41:49 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 10:41:49 - redteam_framework - INFO - Loading model: gpt-oss-20b
+2025-08-18 10:41:49 - redteam - INFO - 使用设备: auto
+2025-08-18 10:41:49 - redteam - ERROR - 模型加载失败: Incorrect path_or_model_id: './models/gpt-oss-20b'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+2025-08-18 10:41:49 - redteam_framework - ERROR - Model loading failed
+2025-08-18 10:41:49 - redteam_framework - ERROR - Failed to load model
+2025-08-18 10:41:49 - __main__ - ERROR - Framework initialization failed
+2025-08-18 10:41:49 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 10:41:49 - redteam - INFO - 模型已卸载
+2025-08-18 10:41:49 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 10:42:43 - redteam - INFO - 开始下载GPT-OSS-20B模型到: models\gpt-oss-20b
+2025-08-18 10:42:48 - redteam - ERROR - 模型下载失败: An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2025-08-18 10:43:23 - redteam - INFO - 开始下载GPT-OSS-20B模型到: models\gpt2
+2025-08-18 10:43:28 - redteam - ERROR - 模型下载失败: An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2025-08-18 10:45:26 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:45:26 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:45:26 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:47:00 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:47:00 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:47:00 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:47:29 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:47:29 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:47:29 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 10:47:58 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 10:47:58 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 10:47:58 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:22:42 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:22:42 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:22:42 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:23:26 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:23:26 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:23:26 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:23:46 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:23:46 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:23:46 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:24:02 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:24:02 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:24:02 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:25:47 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:25:47 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:25:47 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:26:58 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:26:58 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:26:58 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:27:11 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:27:11 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:27:11 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:28:05 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:28:05 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:28:05 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:28:21 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:28:21 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:28:21 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:28:28 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:28:28 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:28:28 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:43:28 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:43:28 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:43:28 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:43:35 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:43:35 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:43:35 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:48:19 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:48:19 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:48:19 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:48:26 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 11:48:26 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 11:48:26 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 11:52:54 - redteam - INFO - 模型已存在: models\gpt2
+2025-08-18 11:53:18 - redteam - INFO - 开始下载GPT-OSS-20B模型到: models\gpt-oss-20b
+2025-08-18 11:53:23 - redteam - ERROR - 模型下载失败: An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2025-08-18 11:55:26 - redteam - INFO - 使用设备: auto
+2025-08-18 11:55:31 - redteam - ERROR - 模型加载失败: We couldn't connect to 'https://huggingface.co' to load this file, couldn't find it in the cached files and it looks like gpt2 is not the path to a directory containing a file named config.json.
+Checkout your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+2025-08-18 12:01:13 - redteam - INFO - 开始下载GPT-OSS-20B模型到: models\gpt-oss-20b
+2025-08-18 12:01:13 - redteam - WARNING - hf命令未找到，请安装: pip install huggingface_hub[cli]
+2025-08-18 12:01:13 - redteam - INFO - hf命令下载失败，尝试使用Python API...
+2025-08-18 12:01:13 - redteam - INFO - 使用Python API下载模型...
+2025-08-18 12:01:18 - redteam - ERROR - Python API下载失败: An error happened while trying to locate the files on the Hub and we cannot find the appropriate snapshot folder for the specified revision on the local disk. Please check your internet connection and try again.
+2025-08-18 12:12:00 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:12:00 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:12:00 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:12:11 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:12:11 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:12:11 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:12:12 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:12:12 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:12:12 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:12:12 - redteam - ERROR - 模型加载失败: 'ModelManager' object has no attribute '_is_ollama_available'
+2025-08-18 12:12:12 - redteam_framework - ERROR - Model loading failed
+2025-08-18 12:12:12 - redteam_framework - ERROR - Failed to load model
+2025-08-18 12:12:12 - __main__ - ERROR - Framework initialization failed
+2025-08-18 12:12:12 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:12:12 - redteam - INFO - 模型已卸载
+2025-08-18 12:12:12 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:12:49 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:12:49 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:12:49 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:12:49 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:12:49 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:12:49 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:12:49 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:12:49 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:12:49 - redteam_framework - ERROR - Framework initialization failed: DatabaseManager.__init__() takes 1 positional argument but 2 were given
+2025-08-18 12:12:49 - __main__ - ERROR - Framework initialization failed
+2025-08-18 12:12:49 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:12:49 - redteam - INFO - 模型已卸载
+2025-08-18 12:12:49 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:13:25 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:13:25 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:13:25 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:13:25 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:13:25 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:13:25 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:13:25 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:13:25 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:13:25 - redteam_framework - ERROR - Framework initialization failed: 'DatabaseManager' object has no attribute 'initialize_database'
+2025-08-18 12:13:25 - __main__ - ERROR - Framework initialization failed
+2025-08-18 12:13:25 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:13:25 - redteam - INFO - 模型已卸载
+2025-08-18 12:13:50 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:13:50 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:13:50 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:13:50 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:13:50 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:13:50 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:13:50 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:13:50 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:13:50 - redteam_framework - INFO - Database initialized
+2025-08-18 12:13:50 - redteam_framework - ERROR - Framework initialization failed: ExecutionConfig.__init__() got an unexpected keyword argument 'timeout'
+2025-08-18 12:13:50 - __main__ - ERROR - Framework initialization failed
+2025-08-18 12:13:50 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:13:50 - redteam - INFO - 模型已卸载
+2025-08-18 12:13:50 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:14:24 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:14:24 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:14:24 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:14:24 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:14:24 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:14:24 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:14:24 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:14:24 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:14:24 - redteam_framework - INFO - Database initialized
+2025-08-18 12:14:24 - redteam_framework - ERROR - Framework initialization failed: TestExecutor.__init__() got an unexpected keyword argument 'model_response_func'
+2025-08-18 12:14:24 - __main__ - ERROR - Framework initialization failed
+2025-08-18 12:14:24 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:14:24 - redteam - INFO - 模型已卸载
+2025-08-18 12:14:24 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:14:49 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:14:49 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:14:49 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:14:49 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:14:49 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:14:49 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:14:49 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:14:49 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:14:49 - redteam_framework - INFO - Database initialized
+2025-08-18 12:14:49 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:14:49 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:14:49 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:14:49 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:14:49 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:14:49 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:14:49 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:14:49 - __main__ - ERROR - Test execution failed: StrategyRegistry.list_strategies() missing 1 required positional argument: 'self'
+2025-08-18 12:14:49 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:14:49 - redteam - INFO - 模型已卸载
+2025-08-18 12:14:49 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:15:21 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:15:21 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:15:21 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:15:21 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:15:21 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:15:21 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:15:21 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:15:21 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:15:21 - redteam_framework - INFO - Database initialized
+2025-08-18 12:15:21 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:15:21 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:15:21 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:15:21 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:15:21 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:15:21 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:15:21 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:15:21 - __main__ - ERROR - Test execution failed: attempted relative import with no known parent package
+2025-08-18 12:15:21 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:15:21 - redteam - INFO - 模型已卸载
+2025-08-18 12:15:21 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:15:39 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:15:39 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:15:39 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:15:39 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:15:39 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:15:39 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:15:39 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:15:39 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:15:39 - redteam_framework - INFO - Database initialized
+2025-08-18 12:15:39 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:15:39 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:15:39 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:15:39 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:15:39 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:15:39 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:15:39 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:15:39 - __main__ - ERROR - Test execution failed: 'ModelManager' object has no attribute 'is_model_loaded'
+2025-08-18 12:15:39 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:15:39 - redteam - INFO - 模型已卸载
+2025-08-18 12:15:39 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:16:04 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:16:04 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:16:04 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:16:04 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:16:04 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:16:04 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:16:04 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:16:04 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:16:04 - redteam_framework - INFO - Database initialized
+2025-08-18 12:16:04 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:16:04 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:16:04 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:16:04 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:16:04 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:16:04 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:16:04 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:16:04 - redteam_framework - INFO - Analyzing custom prompt
+2025-08-18 12:16:04 - redteam_framework - ERROR - Model response error: 模型未加载
+2025-08-18 12:16:04 - redteam_framework - ERROR - Custom prompt analysis failed: 模型未加载
+2025-08-18 12:16:04 - __main__ - ERROR - Test execution failed: 模型未加载
+2025-08-18 12:16:04 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:16:04 - redteam - INFO - 模型已卸载
+2025-08-18 12:16:04 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:16:49 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:16:49 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:16:49 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:16:49 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:16:49 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:16:49 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:16:49 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:16:49 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:16:49 - redteam_framework - INFO - Database initialized
+2025-08-18 12:16:49 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:16:49 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:16:49 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:16:49 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:16:49 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:16:49 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:16:49 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:16:49 - redteam_framework - INFO - Analyzing custom prompt
+2025-08-18 12:16:51 - redteam - ERROR - Ollama生成失败: Ollama API请求失败: 404 - {"error":"model 'gpt-oss:20b' not found"}
+2025-08-18 12:16:51 - redteam - ERROR - 生成响应失败: Ollama API请求失败: 404 - {"error":"model 'gpt-oss:20b' not found"}
+2025-08-18 12:16:51 - redteam_framework - ERROR - Model response error: Ollama API请求失败: 404 - {"error":"model 'gpt-oss:20b' not found"}
+2025-08-18 12:16:51 - redteam_framework - ERROR - Custom prompt analysis failed: Ollama API请求失败: 404 - {"error":"model 'gpt-oss:20b' not found"}
+2025-08-18 12:16:51 - __main__ - ERROR - Test execution failed: Ollama API请求失败: 404 - {"error":"model 'gpt-oss:20b' not found"}
+2025-08-18 12:16:51 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:16:51 - redteam - INFO - 模型已卸载
+2025-08-18 12:16:51 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:17:26 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:17:26 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:17:26 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:17:26 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:17:26 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:17:26 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:17:26 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:17:26 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:17:26 - redteam_framework - INFO - Database initialized
+2025-08-18 12:17:26 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:17:26 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:17:26 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:17:26 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:17:26 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:17:26 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:17:26 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:17:26 - redteam_framework - INFO - Analyzing custom prompt
+2025-08-18 12:17:33 - redteam_framework - ERROR - Custom prompt analysis failed: StrategyRegistry.get_strategy() missing 1 required positional argument: 'name'
+2025-08-18 12:17:33 - __main__ - ERROR - Test execution failed: StrategyRegistry.get_strategy() missing 1 required positional argument: 'name'
+2025-08-18 12:17:33 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:17:33 - redteam - INFO - 模型已卸载
+2025-08-18 12:17:33 - redteam_framework - INFO - Framework cleanup completed
+2025-08-18 12:18:02 - redteam - INFO - 注册策略: PromptInjection (prompt_injection)
+2025-08-18 12:18:02 - redteam - INFO - 注册策略: Jailbreaking (jailbreaking)
+2025-08-18 12:18:02 - redteam - INFO - 注册策略: DataLeakage (data_leakage)
+2025-08-18 12:18:02 - redteam_framework - INFO - Red team framework initialized with config
+2025-08-18 12:18:02 - redteam_framework - INFO - Initializing red team framework components...
+2025-08-18 12:18:02 - redteam_framework - INFO - Loading model: ollama
+2025-08-18 12:18:02 - redteam - INFO - 检测到Ollama，将使用Ollama API
+2025-08-18 12:18:02 - redteam_framework - INFO - Model loaded successfully
+2025-08-18 12:18:02 - redteam_framework - INFO - Database initialized
+2025-08-18 12:18:02 - src.core.test_executor - WARNING - Unknown strategy: prompt_injection
+2025-08-18 12:18:02 - src.core.test_executor - WARNING - Unknown strategy: jailbreaking
+2025-08-18 12:18:02 - src.core.test_executor - WARNING - Unknown strategy: data_leakage
+2025-08-18 12:18:02 - src.core.vulnerability_analyzer - INFO - Loaded vulnerability patterns from database
+2025-08-18 12:18:02 - redteam_framework - INFO - Vulnerability analyzer initialized
+2025-08-18 12:18:02 - src.core.report_generator - INFO - Report generator initialized with format: html
+2025-08-18 12:18:02 - redteam_framework - INFO - Red team framework initialization completed successfully
+2025-08-18 12:18:02 - redteam_framework - INFO - Analyzing custom prompt
+2025-08-18 12:18:06 - redteam_framework - INFO - Cleaning up framework resources
+2025-08-18 12:18:06 - redteam - INFO - 模型已卸载
+2025-08-18 12:18:06 - redteam_framework - INFO - Framework cleanup completed

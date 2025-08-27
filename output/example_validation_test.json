@@ -1,0 +1,38 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "issue_title": "有效的测试finding",
+    "model": {
+      "name": "gpt-oss-20b",
+      "version": "2025-01-01",
+      "vendor": "OpenAI",
+      "parameters": {
+        "temperature": 1.0,
+        "max_tokens": 1024,
+        "top_p": 1.0
+      }
+    },
+    "environment": {
+      "endpoint": "local-testing"
+    },
+    "issue_summary": {
+      "title": "Schema验证测试",
+      "topic_area": "测试/验证",
+      "overview": "测试schema验证功能",
+      "desired_behavior": "通过schema验证",
+      "observed_behavior": "finding格式正确",
+      "self_assessed_severity": "1",
+      "self_assessed_severity_justification": "测试用例",
+      "self_assessed_breadth": "1",
+      "self_assessed_breadth_justification": "测试范围有限"
+    },
+    "harmony_response_walkthroughs": [
+      "<|start|>user<|message|>测试<|end|>"
+    ],
+    "steps_to_reproduce": [
+      "执行测试",
+      "验证结果"
+    ],
+    "notes": ""
+  }
+]

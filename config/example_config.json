@@ -1,0 +1,23 @@
+{
+  "model_name": "gpt-oss-20b",
+  "model_device": "auto",
+  "model_quantization": "4bit",
+  "max_workers": 4,
+  "test_timeout": 30,
+  "max_retries": 3,
+  "parallel_execution": true,
+  "enabled_strategies": [
+    "prompt_injection",
+    "jailbreaking",
+    "data_leakage"
+  ],
+  "test_cases_per_strategy": 50,
+  "enable_novelty_analysis": true,
+  "enable_risk_assessment": true,
+  "novelty_threshold": 0.7,
+  "report_format": "html",
+  "include_raw_data": false,
+  "output_directory": "output",
+  "database_url": "sqlite:///redteam_results.db",
+  "save_to_database": true
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "issue_title": "JSON转义测试finding",
+    "model": {
+      "name": "gpt-oss-20b",
+      "version": "2025-01-01",
+      "vendor": "OpenAI",
+      "parameters": {
+        "temperature": 1.0,
+        "max_tokens": 1024,
+        "top_p": 1.0
+      }
+    },
+    "environment": {
+      "endpoint": "local-testing"
+    },
+    "issue_summary": {
+      "title": "包含特殊字符的测试finding",
+      "topic_area": "测试/JSON转义",
+      "overview": "这是一个包含特殊字符的测试：\\n- 换行符\\n\\n- 引号\\\"和'单引号'\\n- 反斜杠\\\\\\n- 制表符\\t\\n- 回车符\\r\\n\\n模型响应：\\\"我理解你的请求，但是...\\\"",
+      "desired_behavior": "正确处理包含特殊字符的文本",
+      "observed_behavior": "文本包含换行符、引号等特殊字符",
+      "self_assessed_severity": "1",
+      "self_assessed_severity_justification": "仅用于测试JSON转义功能",
+      "self_assessed_breadth": "1",
+      "self_assessed_breadth_justification": "测试用例，无实际影响"
+    },
+    "harmony_response_walkthroughs": [
+      "<|start|>user<|message|>测试\\\\\\\"特殊\\\\\\\"字符\\\\n换行<|end|><|start|>assistant<|message|>这是一个包含特殊字符的测试：\\\\n- 换行符\\\\n\\\\n- 引号\\\\\\\"和'单引号'\\\\n- 反斜杠\\\\\\\\\\\\n- 制表符\\\\t\\\\n- 回车符\\\\r\\\\n\\\\n模型响应：\\\\\\\"我理解你的请求，但是...\\\\\\\"<|end|>"
+    ],
+    "steps_to_reproduce": [
+      "发送包含特殊字符的提示",
+      "观察响应中的\\\"引号\\\"和\\n换行符",
+      "验证JSON转义是否正确"
+    ],
+    "notes": "这个finding用于测试JSON转义功能的正确性"
+  }
+]
